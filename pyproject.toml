@@ -1,0 +1,33 @@
+[project]
+name = "internal-ai"
+version = "0.1.0"
+description = "Internal AI application"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "google-genai>=2.20.0",
+    "langchain-huggingface[full]",
+    "llama-index>=0.14.24",
+    "llama-index-llms-google-genai>=0.10.0",
+    "pgvector>=0.5.0",
+    "psycopg2-binary>=2.9.12",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.15.0",
+    "sqlalchemy>=2.0.52",
+    "uvicorn[standard]>=0.52.4",
+    "alembic",
+    "pyjwt>=2.13.0",
+    "pwdlib[argon2]>=0.3.1",
+    "llama-index-embeddings-huggingface>=0.7.0",
+    "idemkit>=1.0.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

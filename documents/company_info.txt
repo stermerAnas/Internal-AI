@@ -1,0 +1,35 @@
+Acme Technologies — Company Information
+
+Acme Technologies is a software company that develops business automation tools for small and medium-sized companies.
+
+The company was founded in 2018 and is headquartered in Cairo, Egypt.
+
+Acme's main product is AcmeFlow, a workflow automation platform. AcmeFlow allows companies to automate repetitive business processes such as customer onboarding, document processing, notifications, and internal approvals.
+
+The engineering department uses Python, FastAPI, PostgreSQL, and Docker for many of its backend services.
+
+The company has three main departments: Engineering, Sales, and Customer Support.
+
+Engineering is responsible for developing and maintaining Acme's software products. The Engineering department also manages databases, APIs, infrastructure, and software deployments.
+
+Sales is responsible for finding potential customers, managing sales opportunities, and maintaining relationships with existing customers.
+
+Customer Support helps customers troubleshoot problems, answer product questions, and report technical issues to the engineering team.
+
+Acme Technologies stores customer information in PostgreSQL databases. Access to customer information is restricted according to employee permissions.
+
+AcmeFlow can process documents uploaded by customers. Documents are converted into text, divided into smaller chunks, embedded into vectors, and stored for semantic retrieval.
+
+The company uses retrieval-augmented generation to allow its internal AI assistant to answer questions using company documentation.
+
+The internal AI assistant should not invent company policies or customer information. When relevant documentation cannot be retrieved, the assistant should indicate that the available documentation does not contain enough information to answer the question.
+
+Acme Technologies provides technical support from Sunday through Thursday, between 9:00 AM and 5:00 PM Cairo time.
+
+The standard customer-support response target is one business day.
+
+The company has an employee vacation policy that provides employees with 21 paid vacation days per year after completing their probationary period.
+
+Employees must request vacation through the company's internal HR system.
+
+Production database access is restricted to authorized engineering personnel. Developers should not directly modify production data unless the operation has been authorized and follows the company's change-management procedures.
